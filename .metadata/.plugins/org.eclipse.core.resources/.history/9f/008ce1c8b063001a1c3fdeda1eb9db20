@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="User_Login" preserve-order="true">
+    <classes>
+      <class name="com.exercise3.TestsE3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Search_Samsung_Galaxy_S9_64GB" preserve-order="true">
+    <classes>
+      <class name="com.exercise3.TestsE3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ </suite> <!-- Suite -->

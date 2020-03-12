@@ -1,0 +1,28 @@
+package com.exercise3;
+
+import org.testng.annotations.Test;
+
+import io.cucumber.java.en.When;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterTest;
+
+public class TestsE3 {
+  @Test
+  @When(value = "")
+  public void f() {
+  }
+  
+  @Test
+  public void f2() {
+  }
+  
+  @BeforeTest
+  public void beforeTest() {
+  }
+
+  @AfterTest
+  public void afterTest() {
+  }
+
+}

@@ -1,0 +1,277 @@
+<html>
+<head>
+<title>TestNG:  Search for Product</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Search for Product</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 10 22:25:37 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15286 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.exercise3.MyTests.Search_Samsung_Galaxy_S9_64GB()'><b>Search_Samsung_Galaxy_S9_64GB</b><br>Test class: com.exercise3.MyTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Samsung Galaxy S9 64GB&apos; is required by @Test on method Search_Samsung_Galaxy_S9_64GB but has not been marked @Optional or defined
+in C:\Users\miriam.ramirez\Documents\- Training\Training SDET\Exercises\7. Java Maven\Exercise 3\TestsExercise3\src\test\java\testng.xml
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1237912220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237912220'><pre>org.testng.TestNGException: 
+Parameter &apos;Samsung Galaxy S9 64GB&apos; is required by @Test on method Search_Samsung_Galaxy_S9_64GB but has not been marked @Optional or defined
+in C:\Users\miriam.ramirez\Documents\- Training\Training SDET\Exercises\7. Java Maven\Exercise 3\TestsExercise3\src\test\java\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Search_Samsung_Galaxy_S9_64GB()'><b>Search_Samsung_Galaxy_S9_64GB</b><br>Test class: com.exercise3.MyTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;Samsung Galaxy S9 64GB&apos; is required by @Test on method Search_Samsung_Galaxy_S9_64GB but has not been marked @Optional or defined
+in C:\Users\miriam.ramirez\Documents\- Training\Training SDET\Exercises\7. Java Maven\Exercise 3\TestsExercise3\src\test\java\testng.xml
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1866768727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1866768727'><pre>org.testng.TestNGException: 
+Parameter &apos;Samsung Galaxy S9 64GB&apos; is required by @Test on method Search_Samsung_Galaxy_S9_64GB but has not been marked @Optional or defined
+in C:\Users\miriam.ramirez\Documents\- Training\Training SDET\Exercises\7. Java Maven\Exercise 3\TestsExercise3\src\test\java\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:289)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:721)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:895)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.exercise3.MyTests.Click_On_The_Product()'><b>Click_On_The_Product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Click_On_The_Product()'><b>Click_On_The_Product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Select_First_Product()'><b>Select_First_Product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Select_First_Product()'><b>Select_First_Product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.User_Login()'><b>User_Login</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>2</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.User_Login()'><b>User_Login</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>2</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Validate_First_Price_vs_DetailPrice()'><b>Validate_First_Price_vs_DetailPrice</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.Validate_First_Price_vs_DetailPrice()'><b>Validate_First_Price_vs_DetailPrice</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.add_to_Cart()'><b>add_to_Cart</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.add_to_Cart()'><b>add_to_Cart</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.click_on_Add_to_Cart()'><b>click_on_Add_to_Cart</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.click_on_Add_to_Cart()'><b>click_on_Add_to_Cart</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.search_for_another_product_Alienware_Aw3418DW()'><b>search_for_another_product_Alienware_Aw3418DW</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.search_for_another_product_Alienware_Aw3418DW()'><b>search_for_another_product_Alienware_Aw3418DW</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.select_First_product()'><b>select_First_product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.select_First_product()'><b>select_First_product</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.validate_again_first_price_vs_current_price()'><b>validate_again_first_price_vs_current_price</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.validate_again_first_price_vs_current_price()'><b>validate_again_first_price_vs_current_price</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.validate_that_the_Shop_car_has_1_as_a_number()'><b>validate_that_the_Shop_car_has_1_as_a_number</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.validate_that_the_Shop_car_has_1_as_a_number()'><b>validate_that_the_Shop_car_has_1_as_a_number</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.verify_that_the_cart_number_is_now_2()'><b>verify_that_the_cart_number_is_now_2</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@1f554b06</td></tr>
+<tr>
+<td title='com.exercise3.MyTests.verify_that_the_cart_number_is_now_2()'><b>verify_that_the_cart_number_is_now_2</b><br>Test class: com.exercise3.MyTests</td>
+<td></td>
+<td>0</td>
+<td>com.exercise3.MyTests@27a8c74e</td></tr>
+</table><p>
+</body>
+</html>

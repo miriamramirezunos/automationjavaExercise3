@@ -1,0 +1,23 @@
+package com.exercise3;
+
+public class AmazonPage {
+	static String url, amazonUser, amazonPw; 
+	
+	public static void goTo() {
+		url = ReadConfigFile.readEmail();
+		Browser.goTo(url);
+	}
+	
+	public static void gotoCuentayListas() {
+		Browser.clickOnCuentaYListas(); 
+	}
+	
+	public static void login() {
+		amazonUser = ReadConfigFile.readUser();
+		amazonPw = ReadConfigFile.readPassword(); 
+	}	
+	
+	public static void close() {
+		Browser.close(); 
+	}
+}

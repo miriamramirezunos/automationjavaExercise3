@@ -1,0 +1,16 @@
+package com.exercise3;
+
+public class AmazonPage {
+	static String url, amazonUser, amazonPw; 
+	
+	public void goTo() {
+		url = ReadJsonFile.reademail();
+		Browser.goTo(url); 
+	}
+	
+	
+	
+	public void close() {
+		Browser.close(); 
+	}
+}

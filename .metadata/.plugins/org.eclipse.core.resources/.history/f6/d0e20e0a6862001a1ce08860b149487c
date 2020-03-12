@@ -1,0 +1,28 @@
+package com.exercise3;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.InputStream;
+
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
+public class ReadJsonFile {
+	
+    public static String readjson() throws FileNotFoundException {
+        String values = "";
+        System.out.println("Read Json File ");
+        JSONObject json; 
+        try (InputStream input = new FileInputStream("File/jsonfile.json")) {
+        	json = new JSONObject(new JSONTokener(input));
+        	System.out.println(json);
+        	
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return values;
+        
+    }
+
+}

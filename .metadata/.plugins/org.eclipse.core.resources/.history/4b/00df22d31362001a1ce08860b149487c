@@ -1,0 +1,8 @@
+package com.exercise3;
+
+public class Setup {
+	
+	public static HomePage homePage();
+		return new HomePage(); 
+
+}
