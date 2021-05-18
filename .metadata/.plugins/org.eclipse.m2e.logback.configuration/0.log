@@ -1953,3 +1953,103 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.exercise3
 2020-03-12 00:42:13,218 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-03-12 00:42:13,219 [Worker-41: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-03-12 00:42:13,224 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-14 11:36:45,666 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-09-14 12:05:43,608 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-picocontainer:pom:1.2.6 has been relocated to io.cucumber:cucumber-picocontainer:pom:1.2.6
+2020-09-14 12:05:43,618 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier  to /TestFrakework/target/classes
+2020-09-14 12:05:43,769 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:05:43,863 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:06:33,707 [Worker-2: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:06:33,728 [Worker-2: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:06:58,700 [Worker-18: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:06:58,723 [Worker-18: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:07:25,390 [Worker-25: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:07:25,410 [Worker-25: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:07:49,359 [Worker-18: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:07:49,804 [Worker-18: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:08:03,820 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:08:03,841 [Worker-20: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:08:24,019 [Worker-24: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:08:24,038 [Worker-24: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:09:09,164 [Worker-25: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:09:09,189 [Worker-25: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:09:16,456 [Worker-2: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2020-09-14 12:09:16,481 [Worker-2: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-17 09:59:44,304 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-17 10:00:21,226 [Worker-3: Launching TestsExercise3_src.test.java.testng.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-picocontainer:pom:1.2.6 has been relocated to io.cucumber:cucumber-picocontainer:pom:1.2.6
+2021-05-17 10:00:21,231 [Worker-3: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier  to /TestFrakework/target/classes
+2021-05-17 10:00:21,315 [Worker-3: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-17 10:00:21,415 [Worker-3: Launching TestsExercise3_src.test.java.testng.xml] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-17 16:25:42,529 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-17 16:33:35,019 [Worker-6: Launching MyTests, ...] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-picocontainer:pom:1.2.6 has been relocated to io.cucumber:cucumber-picocontainer:pom:1.2.6
+2021-05-17 16:33:35,025 [Worker-6: Launching MyTests, ...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier  to /TestFrakework/target/classes
+2021-05-17 16:33:35,118 [Worker-6: Launching MyTests, ...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-17 16:33:35,184 [Worker-6: Launching MyTests, ...] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-18 08:10:44,587 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-18 08:18:50,177 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:18:50,184 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:18:50,186 [Worker-1: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:18:50,187 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:27:52,384 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:27:52,392 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:27:52,394 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:27:52,395 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:28:39,509 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:28:39,509 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:28:39,509 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:28:39,509 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:43:26,555 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:43:26,555 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:43:26,555 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:43:26,555 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:46:57,874 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:46:57,874 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:46:57,890 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:46:57,890 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:52:23,719 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:52:23,727 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:52:23,729 [Worker-19: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:52:23,729 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:55:55,310 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:55:55,311 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:55:55,311 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:55:55,311 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:19,700 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:19,702 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:19,704 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:19,705 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:19,990 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact info.cukes:cucumber-picocontainer:pom:1.2.6 has been relocated to io.cucumber:cucumber-picocontainer:pom:1.2.6
+2021-05-18 08:57:19,994 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier  to /TestFrakework/target/classes
+2021-05-18 08:57:20,010 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:20,012 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:20,013 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:20,015 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:22,045 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:22,045 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:22,045 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:57:22,045 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:57:24,537 [Worker-19: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-18 08:57:24,600 [Worker-19: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-18 08:58:29,256 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:29,257 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:29,259 [Worker-18: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:29,260 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:31,451 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:31,451 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:31,467 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:31,468 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:31,494 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:31,494 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:31,494 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 08:58:31,494 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 08:58:38,810 [Worker-19: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-18 08:58:38,822 [Worker-19: Launching TestsE3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/TestFrakework: com.exercise3:TestFrakework:0.0.1-SNAPSHOT with classifier null to /TestFrakework/target/classes
+2021-05-18 09:11:18,922 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 09:11:18,924 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 09:11:18,925 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 09:11:18,926 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 09:16:08,229 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 09:16:08,231 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 09:16:08,232 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 09:16:08,234 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-18 09:23:37,991 [Worker-33: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-18 09:23:37,991 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

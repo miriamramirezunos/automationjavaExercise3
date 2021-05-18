@@ -1,8 +1,0 @@
-package com.exercise3;
-
-public class AmazonPage {
-	static String url = "https://www.amazon.com.mx/"; 
-	public void goTo() {
-		Browser.goTo(url); 
-	}
-}

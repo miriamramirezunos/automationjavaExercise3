@@ -6,8 +6,15 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="linkPriceGalaxy"/>
+		<item key="selection" value="#search&gt;div:nth-of-type(1)&gt;div:nth-of-type(2)&gt;div&gt;span:nth-of-type(4)&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span&gt;div&gt;div&gt;div:nth-of-type(2)&gt;div:nth-of-type(2)&gt;div&gt;div:nth-of-type(2)&gt;div&gt;div&gt;div&gt;div&gt;div&gt;a&gt;span:nth-of-type(1)&gt;span:nth-of-type(1)"/>
 		<list key="findhistory">
+			<item value="#search&gt;div:nth-of-type(1)&gt;div:nth-of-type(2)&gt;div&gt;span:nth-of-type(4)&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span&gt;div&gt;div&gt;div:nth-of-type(2)&gt;div:nth-of-type(2)&gt;div&gt;div:nth-of-type(2)&gt;div&gt;div&gt;div&gt;div&gt;div&gt;a&gt;span:nth-of-type(1)&gt;span:nth-of-type(1)"/>
+			<item value="#search&gt;div:nth-of-type(1)&gt;div:nth-of-type(2)&gt;div&gt;span:nth-of-type(4)&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span&gt;div&gt;div&gt;div:nth-of-type(2)&gt;div:nth-of-type(2)&gt;div&gt;div:nth-of-type(2)&gt;div&gt;div&gt;div&gt;div&gt;div&gt;a&gt;span:nth-of-type(1)&gt;span:nth-of-type(1) "/>
+			<item value="isItSponsored"/>
+			<item value="subTotal"/>
+			<item value="#activeCartViewForm&gt;div:nth-of-type(2)&gt;div:nth-of-type(3)&gt;div:nth-of-type(4)&gt;div&gt;div:nth-of-type(2)&gt;p&gt;span"/>
+			<item value="#hlb-view-cart-announce"/>
+			<item value="#search&gt;div:nth-of-type(1)&gt;div:nth-of-type(2)&gt;div&gt;span:nth-of-type(4)&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span&gt;div&gt;div&gt;div&gt;div:nth-of-type(1)&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span:nth-of-type(2)"/>
 			<item value="linkPriceGalaxy"/>
 			<item value="#search&gt;div:nth-of-type(1)&gt;div:nth-of-type(2)&gt;div&gt;span:nth-of-type(4)&gt;div&gt;div:nth-of-type(1)&gt;div&gt;span&gt;div&gt;div&gt;div&gt;div&gt;div:nth-of-type(2)&gt;div:nth-of-type(2)&gt;div&gt;div:nth-of-type(2)&gt;div&gt;div&gt;div&gt;div&gt;div&gt;a&gt;span&gt;span:nth-of-type(2)&gt;span:nth-of-type(2)"/>
 			<item value="selectFirstProduct"/>

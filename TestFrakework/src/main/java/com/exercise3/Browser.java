@@ -24,18 +24,18 @@ public class Browser {
 	static By btnAuthSignIn = By.cssSelector("#auth-signin-button");
 	static By cerrarSesion = By.cssSelector("#nav-item-signout");
 	static By inputSearchBar = By.cssSelector("#twotabsearchtextbox"); 
-	static By btnSearchBar = By.cssSelector("#nav-search>form>div:nth-of-type(2)>div"); 
+	static By btnSearchBar = By.cssSelector("#nav-search>form>div:nth-of-type(4)>div"); 
 	static By sponsored = By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div>div:nth-of-type(1)>div>div>div>div>div>div>div:nth-of-type(1)>div>span:nth-of-type(2)");
 	static By strPriceGalaxySponsored = 	By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>div>a>span:nth-of-type(1)>span:nth-of-type(1)");
 	static By linkPriceGalaxySponsored =  	By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>div>a");
-	static By strPriceGalaxy = 				By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>div>a>span:nth-of-type(1)>span:nth-of-type(1)");
-	static By linkPriceGalaxy =  			By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>div>a");
+	static By strPriceGalaxy = 				By.cssSelector("#search>div>div>div>div>span>div:nth-of-type(2)>div:nth-of-type(1)>div>span>div>div>div:nth-of-type(4)>div>a>span:nth-of-type(1)>span:nth-of-type(1)");
+	static By linkPriceGalaxy =  			By.cssSelector("#search>div>div>div>div>span>div:nth-of-type(2)>div:nth-of-type(1)>div>span>div>div>div:nth-of-type(2)>h2>a");
 	static By galaxyPrice = By.cssSelector("#price_inside_buybox"); 
 	static By btnAddToCart = By.cssSelector("#add-to-cart-button");
 	static By cartButton = By.cssSelector("#hlb-view-cart-announce"); 
 	static By subTotal = By.cssSelector("#activeCartViewForm>div:nth-of-type(2)>div:nth-of-type(3)>div:nth-of-type(4)>div>div:nth-of-type(2)>p>span"); 
 	static By cartCount = By.cssSelector("#nav-cart-count"); 
-	static By linkPriceAlienware =  By.cssSelector("#search>div:nth-of-type(1)>div:nth-of-type(2)>div>span:nth-of-type(4)>div>div:nth-of-type(1)>div>span>div>div>div:nth-of-type(2)>div:nth-of-type(2)>div>div:nth-of-type(2)>div>div>div>div>div>a"); 
+	static By linkPriceAlienware =  By.cssSelector("#search>div>div>div>div>span>div:nth-of-type(2)>div:nth-of-type(2)>div>span>div>div>div:nth-of-type(2)>h2>a"); 
 	
 	public static void goTo(String url) throws Exception {
 		try{
@@ -70,6 +70,7 @@ public class Browser {
 			WebDriverWait wait = new WebDriverWait(driver, 20);
 			wait.until(ExpectedConditions.presenceOfElementLocated(inputSearchBar));
 			driver.findElement(inputSearchBar).sendKeys("Samsung Galaxy S9 64GB");
+			wait.until(ExpectedConditions.presenceOfElementLocated(btnSearchBar));
 			driver.findElement(btnSearchBar).click();
 		}	
 		catch (Exception e) {
@@ -79,16 +80,9 @@ public class Browser {
 	
 	public static String selectFirstProduct() throws Exception{
 		try{
-			WebDriverWait wait = new WebDriverWait(driver, 20);
-			if(driver.findElements(sponsored).size() != 0) {
-				System.out.println("Sponsored = ON");
-				wait.until(ExpectedConditions.presenceOfElementLocated(strPriceGalaxySponsored));
-				return driver.findElement(strPriceGalaxySponsored).getAttribute("innerHTML");
-			}else {
-				System.out.println("Sponsored = OFF"); 
-				wait.until(ExpectedConditions.presenceOfElementLocated(strPriceGalaxy));
-				return driver.findElement(strPriceGalaxy).getAttribute("innerHTML");
-			}
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			wait.until(ExpectedConditions.presenceOfElementLocated(strPriceGalaxy));
+			return driver.findElement(strPriceGalaxy).getAttribute("innerHTML");		
 		}
 		catch (Exception e) {
 			throw(e);

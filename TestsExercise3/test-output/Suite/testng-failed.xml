@@ -5,22 +5,11 @@
     <classes>
       <class name="com.exercise3.TestsE3">
         <methods>
+          <include name="User_Login"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="Click_On_The_Product"/>
         </methods>
       </class> <!-- com.exercise3.TestsE3 -->
     </classes>
   </test> <!-- User_Login(failed) -->
-  <test thread-count="5" name="Search_Samsung_Galaxy_S9_64GB(failed)">
-    <classes>
-      <class name="com.exercise3.TestsE3">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="Click_On_The_Product"/>
-        </methods>
-      </class> <!-- com.exercise3.TestsE3 -->
-    </classes>
-  </test> <!-- Search_Samsung_Galaxy_S9_64GB(failed) -->
 </suite> <!-- Failed suite [Suite] -->

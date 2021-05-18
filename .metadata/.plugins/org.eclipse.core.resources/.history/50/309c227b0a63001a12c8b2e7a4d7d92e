@@ -1,8 +1,0 @@
-package com.exercise3;
-
-public class Setup {
-	
-	public static AmazonPage amazonPage() {
-		return new AmazonPage(); 
-	}	
-}

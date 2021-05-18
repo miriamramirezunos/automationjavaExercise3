@@ -5,9 +5,9 @@
     <classes>
       <class name="com.exercise3.TestsE3">
         <methods>
+          <include name="User_Login"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="Click_On_The_Product"/>
         </methods>
       </class> <!-- com.exercise3.TestsE3 -->
     </classes>

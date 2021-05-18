@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16923" started-at="2020-03-11T16:05:48 CST" finished-at="2020-03-11T16:06:05 CST">
+  <suite name="Default suite" duration-ms="8445" started-at="2021-05-18T08:58:39 CDT" finished-at="2021-05-18T08:58:48 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16923" started-at="2020-03-11T16:05:48 CST" finished-at="2020-03-11T16:06:05 CST">
+    <test name="Default test" duration-ms="8445" started-at="2021-05-18T08:58:39 CDT" finished-at="2021-05-18T08:58:48 CDT">
       <class name="com.exercise3.TestsE3">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="beforeTest" is-config="true" duration-ms="12269" started-at="2020-03-11T16:05:48 CST" finished-at="2020-03-11T16:06:01 CST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="beforeTest" is-config="true" duration-ms="3765" started-at="2021-05-18T08:58:39 CDT" finished-at="2021-05-18T08:58:43 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="User_Login()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="User_Login" duration-ms="3182" started-at="2020-03-11T16:06:01 CST" finished-at="2020-03-11T16:06:04 CST">
+        <test-method status="PASS" signature="User_Login()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="User_Login" duration-ms="1488" started-at="2021-05-18T08:58:43 CDT" finished-at="2021-05-18T08:58:44 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_Login -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="afterTest" is-config="true" duration-ms="1439" started-at="2020-03-11T16:06:04 CST" finished-at="2020-03-11T16:06:05 CST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.exercise3.TestsE3@67205a84]" name="afterTest" is-config="true" duration-ms="3135" started-at="2021-05-18T08:58:44 CDT" finished-at="2021-05-18T08:58:48 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
